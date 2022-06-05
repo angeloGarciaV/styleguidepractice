@@ -1,0 +1,93 @@
+/* Colors*/
+h1, h2,h4{
+    font-family: sans-serif;
+}
+.colors p{
+    font-family: sans-serif;
+}
+.rgbvalue{
+  display: inline-flex;
+    border-radius: 50%;
+    color: white;
+    height: 150px; 
+    width: 150px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.colors{
+    padding: 10px;
+    border: 5px solid black;
+  }
+#red{
+    background-color: rgba(210,32,33)
+  }
+#dark-red{
+    background-color: rgba(176,31,35);
+  }
+#maroon{
+    background-color: rgba(128,0,33)
+  }
+#orange{
+    background-color: rgba(255,138,1)
+  }
+#yellow{
+    background-color: rgba(250, 184, 70);
+  }
+#light-yellow{
+    background-color: rgba(253,255,225);
+    color: black;
+  }
+#dark-brown{
+    background-color: black;
+  }
+#brown{
+    background-color: black;
+  }
+#light-gray{
+    background-color: black;
+  }
+#beige{
+    background-color: rgba(236,228,214);
+    color: black;
+  }
+#light-gray{
+    background-color: rgba(185,182,173);
+  }
+#brown{
+  background-color: rgba(135, 93,78);
+}
+#dark-brown{
+  background-color: rgba(95,82,82);
+}
+/* Fonts*/
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid black;
+  }
+#open-sans{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: 'Open Sans';
+    font-size: 24px;
+}
+#OSlight{
+    font-weight: 300;
+}
+#OSregular{
+    font-weight: 400;
+}
+#OSbold{
+    font-weight: 700;
+}
+#yellowtail{
+    font-family: 'Yellowtail', cursive;
+    font-size: 24px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width:300px;
+}
